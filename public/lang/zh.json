@@ -1,0 +1,98 @@
+{
+  "common": {
+    "overview": "概览",
+    "models": "模型",
+    "agents": "代理",
+    "channels": "通道",
+    "skills": "技能",
+    "logs": "日志",
+    "config": "配置",
+    "load": "加载",
+    "reload": "重新加载",
+    "browse": "浏览",
+    "auto": "自动",
+    "save": "保存",
+    "add": "添加",
+    "edit": "编辑",
+    "delete": "删除",
+    "cancel": "取消",
+    "confirm": "确认",
+    "start": "启动",
+    "stop": "停止",
+    "restart": "重启",
+    "refresh": "刷新",
+    "clear": "清空",
+    "search": "搜索",
+    "close": "关闭"
+  },
+  "header": {
+    "configPath": "输入配置文件路径或点击浏览选择",
+    "gatewayStatus": "网关状态",
+    "stopped": "已停止",
+    "running": "运行中",
+    "loaded": "已加载"
+  },
+  "sidebar": {
+    "defaultModel": "默认模型",
+    "notSet": "未设置"
+  },
+  "overview": {
+    "title": "概览",
+    "description": "系统概览和快捷操作",
+    "activeModels": "活跃模型",
+    "activeAgents": "活跃代理",
+    "activeChannels": "活跃通道",
+    "activeSkills": "活跃技能",
+    "gatewayManager": "网关管理",
+    "gatewayStatus": "网关状态",
+    "gatewayPort": "网关端口",
+    "configInfo": "配置信息",
+    "version": "版本",
+    "lastModified": "最后修改",
+    "authMode": "认证模式",
+    "updateChannel": "更新通道",
+    "notRunning": "未运行"
+  },
+  "models": {
+    "title": "模型",
+    "description": "管理模型提供商和配置",
+    "addProvider": "添加提供商",
+    "noConfig": "未加载配置。请先加载配置文件。"
+  },
+  "agents": {
+    "title": "代理",
+    "description": "配置代理实例和默认值",
+    "addAgent": "添加代理",
+    "noConfig": "未加载配置。请先加载配置文件。"
+  },
+  "channels": {
+    "title": "通道",
+    "description": "管理通信通道",
+    "addChannel": "添加通道",
+    "noConfig": "未加载配置。请先加载配置文件。"
+  },
+  "skills": {
+    "title": "技能",
+    "description": "管理技能配置",
+    "noConfig": "未加载配置。请先加载配置文件。"
+  },
+  "logs": {
+    "title": "日志",
+    "description": "查看外部日志文件",
+    "logPath": "输入日志文件路径或点击浏览选择",
+    "logContent": "日志内容",
+    "file": "文件",
+    "loadLogs": "输入日志文件路径并点击加载查看日志"
+  },
+  "configTab": {
+    "title": "原始配置",
+    "description": "查看和编辑原始配置",
+    "saveConfig": "保存配置",
+    "placeholder": "配置 JSON 将显示在这里..."
+  },
+  "language": {
+    "switch": "切换语言",
+    "english": "English",
+    "chinese": "中文"
+  }
+}

@@ -1,0 +1,20 @@
+# Dependencies
+node_modules
+
+# Build outputs
+src-tauri/target/
+
+# Sidecar binaries (platform-specific, generated on build)
+src-tauri/binaries/*.exe
+src-tauri/binaries/server-*
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

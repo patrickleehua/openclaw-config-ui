@@ -1,0 +1,98 @@
+{
+  "common": {
+    "overview": "Overview",
+    "models": "Models",
+    "agents": "Agents",
+    "channels": "Channels",
+    "skills": "Skills",
+    "logs": "Logs",
+    "config": "Config",
+    "load": "Load",
+    "reload": "Reload",
+    "browse": "Browse",
+    "auto": "Auto",
+    "save": "Save",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "start": "Start",
+    "stop": "Stop",
+    "restart": "Restart",
+    "refresh": "Refresh",
+    "clear": "Clear",
+    "search": "Search",
+    "close": "Close"
+  },
+  "header": {
+    "configPath": "Enter config file path or click Browse to select",
+    "gatewayStatus": "Gateway Status",
+    "stopped": "Stopped",
+    "running": "Running",
+    "loaded": "Loaded"
+  },
+  "sidebar": {
+    "defaultModel": "Default Model",
+    "notSet": "Not set"
+  },
+  "overview": {
+    "title": "Overview",
+    "description": "System overview and quick actions",
+    "activeModels": "Active Models",
+    "activeAgents": "Active Agents",
+    "activeChannels": "Active Channels",
+    "activeSkills": "Active Skills",
+    "gatewayManager": "Gateway Manager",
+    "gatewayStatus": "Gateway Status",
+    "gatewayPort": "Gateway Port",
+    "configInfo": "Config Info",
+    "version": "Version",
+    "lastModified": "Last Modified",
+    "authMode": "Auth Mode",
+    "updateChannel": "Update Channel",
+    "notRunning": "Not running"
+  },
+  "models": {
+    "title": "Models",
+    "description": "Manage model providers and configurations",
+    "addProvider": "Add Provider",
+    "noConfig": "No config loaded. Please load a config file first."
+  },
+  "agents": {
+    "title": "Agents",
+    "description": "Configure agent instances and defaults",
+    "addAgent": "Add Agent",
+    "noConfig": "No config loaded. Please load a config file first."
+  },
+  "channels": {
+    "title": "Channels",
+    "description": "Manage communication channels",
+    "addChannel": "Add Channel",
+    "noConfig": "No config loaded. Please load a config file first."
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Manage skill configurations",
+    "noConfig": "No config loaded. Please load a config file first."
+  },
+  "logs": {
+    "title": "Logs",
+    "description": "View external log files",
+    "logPath": "Enter log file path or click Browse to select",
+    "logContent": "Log Content",
+    "file": "File",
+    "loadLogs": "Enter a log file path and click Load to view logs"
+  },
+  "configTab": {
+    "title": "Raw Config",
+    "description": "View and edit raw configuration",
+    "saveConfig": "Save Config",
+    "placeholder": "Config JSON will appear here..."
+  },
+  "language": {
+    "switch": "Switch Language",
+    "english": "English",
+    "chinese": "中文"
+  }
+}
