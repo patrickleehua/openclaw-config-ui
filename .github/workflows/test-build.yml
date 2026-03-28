@@ -54,6 +54,20 @@ jobs:
       - name: Install frontend dependencies
         run: pnpm install
 
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Build server binary
+        shell: bash
+        run: |
+          case "${{ matrix.platform.name }}" in
+            linux)  target="bun-linux-x64"; ext="" ;;
+            windows) target="bun-windows-x64"; ext=".exe" ;;
+            macos) target="bun-darwin-arm64"; ext="" ;;
+          esac
+          output="src-tauri/binaries/server-${{ matrix.platform.os == 'ubuntu-22.04' && 'x86_64-unknown-linux-gnu' || matrix.platform.os == 'windows-latest' && 'x86_64-pc-windows-msvc' || 'aarch64-apple-darwin' }}${ext}"
+          bun build server.cjs --compile --minify --target="${target}" --outfile="${output}"
+
       - name: Build Tauri app
         run: pnpm run tauri build
 
